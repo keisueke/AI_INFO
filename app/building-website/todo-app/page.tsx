@@ -3,17 +3,20 @@ import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { TryItOut } from "@/components/content/TryItOut"
 import { CodeBlock } from "@/components/content/CodeBlock"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function TodoAppPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>実践: ToDoアプリを作る</h1>
         
         <p>
           ステップバイステップで、Copilotを使って実際のToDoアプリを構築します。
           各ステップで、効果的なプロンプトの書き方を学びます。
         </p>
+
+        <TableOfContents />
 
         <h2>Step 1: プロンプトで要件を伝える</h2>
         

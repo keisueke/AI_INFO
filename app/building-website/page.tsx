@@ -2,17 +2,20 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { CodeBlock } from "@/components/content/CodeBlock"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function BuildingWebsitePage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>生成AIでWebサイトを作る</h1>
         
         <p>
           ここでは、GitHub Copilotを使って実際にWebアプリケーションを構築する方法を学びます。
           理論だけでなく、実践を通じてAIとの開発を体験しましょう。
         </p>
+
+        <TableOfContents />
 
         <h2>プロジェクトの始め方</h2>
         

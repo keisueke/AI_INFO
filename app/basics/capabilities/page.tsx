@@ -2,17 +2,20 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { TryItOut } from "@/components/content/TryItOut"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function CapabilitiesPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>LLMの能力と限界</h1>
         
         <p>
           生成AIは非常に強力ですが、完璧ではありません。
           その能力と限界を理解することで、適切な期待値を持って活用できます。
         </p>
+
+        <TableOfContents />
 
         <h2>得意なタスク</h2>
         

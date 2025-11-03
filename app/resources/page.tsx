@@ -1,15 +1,18 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function ResourcesPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>リソース</h1>
         
         <p>
           生成AIを活用したWeb開発を学ぶための参考資料をまとめました。
         </p>
+
+        <TableOfContents />
 
         <h2>公式ドキュメント</h2>
 
@@ -122,9 +125,9 @@ export default function ResourcesPage() {
           </div>
 
           <div className="rounded-lg border border-border bg-card p-4">
-            <h3 className="mb-1 font-semibold">Vibecording</h3>
+            <h3 className="mb-1 font-semibold">Vibecoding: 雰囲気コーディング</h3>
             <p className="text-sm text-muted-foreground">
-              音声入力を使ってコードを書く技術。
+              AIと人間が交互にコードを書き進める開発スタイル。
             </p>
           </div>
 

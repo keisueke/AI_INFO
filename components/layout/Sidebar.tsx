@@ -46,7 +46,15 @@ const sidebarLinks: SidebarLink[] = [
       { href: "/worktree/multi-agent", label: "マルチエージェント" },
     ],
   },
-  { href: "/vibecording", label: "Vibecording" },
+  {
+    href: "/copilot-features",
+    label: "Copilotの特徴",
+    children: [
+      { href: "/copilot-features", label: "Copilotとは" },
+      { href: "/image-generation-tips", label: "画像生成Tips" },
+    ],
+  },
+  { href: "/vibecording", label: "Vibecoding: 雰囲気コーディング" },
   { href: "/risks", label: "リスクと注意点" },
   { href: "/workflow", label: "実践的な開発フロー" },
   { href: "/best-practices", label: "ベストプラクティス" },

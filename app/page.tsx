@@ -1,19 +1,25 @@
+'use client';
+
+import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import AIPersonaDiagnosis from "@/components/AIPersonaDiagnosis";
 
 export default function Home() {
+  const [showDiagnosis, setShowDiagnosis] = useState(false);
+
   return (
     <div className="bg-gradient-to-br from-background via-background to-muted/20">
-      <div className="container mx-auto px-4 py-16 md:py-24">
-        <div className="mx-auto max-w-4xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
+        <div className="mx-auto max-w-4xl w-full">
           {/* Hero Section */}
           <div className="mb-16 text-center">
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
+            <h1 className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               生成AIでWebアプリ開発を
               <br />
               学びませんか？
             </h1>
-            <p className="mb-8 text-lg text-muted-foreground md:text-xl">
+            <p className="mb-8 text-base sm:text-lg md:text-xl text-muted-foreground">
               GitHub Copilotを活用して、実践的なWebアプリケーション開発を学ぶ
               学習サイトへようこそ。基礎から実践まで、ステップバイステップで学べます。
             </p>
@@ -29,11 +35,42 @@ export default function Home() {
             </div>
           </div>
 
+          {/* 生成AIへの考え方を再認識するセクション */}
+          {!showDiagnosis ? (
+            <div className="mb-12 sm:mb-16 rounded-lg border border-border bg-card p-6 sm:p-8 shadow-lg">
+              <div className="text-center mb-4 sm:mb-6">
+                <h2 className="text-xl sm:text-2xl font-bold mb-3">
+                  生成AIへの考え方を再認識する
+                </h2>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  あなたの生成AIに対する考え方を診断します。
+                  <br />
+                  8つの質問に答えることで、あなたに近いペルソナを判定し、
+                  <br />
+                  より良い考え方へのアドバイスを提供します。
+                </p>
+              </div>
+              <div className="flex justify-center">
+                <Button
+                  size="lg"
+                  onClick={() => setShowDiagnosis(true)}
+                  className="px-8"
+                >
+                  診断を始める
+                </Button>
+              </div>
+            </div>
+          ) : (
+            <div className="mb-16">
+              <AIPersonaDiagnosis onComplete={() => setShowDiagnosis(false)} />
+            </div>
+          )}
+
           {/* Features Section */}
-          <div className="mb-16 grid gap-8 md:grid-cols-2">
-            <div className="rounded-lg border border-border bg-card p-6">
-              <h2 className="mb-3 text-xl font-semibold">基礎を学ぶ</h2>
-              <p className="mb-4 text-muted-foreground">
+          <div className="mb-12 sm:mb-16 grid gap-6 sm:gap-8 md:grid-cols-2">
+            <div className="rounded-lg border border-border bg-card p-4 sm:p-6">
+              <h2 className="mb-3 text-lg sm:text-xl font-semibold">基礎を学ぶ</h2>
+              <p className="mb-4 text-sm sm:text-base text-muted-foreground">
                 生成AIの仕組み、LLMの能力と限界、基本的な使い方を理解しましょう。
               </p>
               <Link href="/basics">
@@ -43,9 +80,9 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-6">
-              <h2 className="mb-3 text-xl font-semibold">実践する</h2>
-              <p className="mb-4 text-muted-foreground">
+            <div className="rounded-lg border border-border bg-card p-4 sm:p-6">
+              <h2 className="mb-3 text-lg sm:text-xl font-semibold">実践する</h2>
+              <p className="mb-4 text-sm sm:text-base text-muted-foreground">
                 実際にWebアプリケーションを構築しながら、AIとの付き合い方を身につけます。
               </p>
               <Link href="/building-website">
@@ -55,9 +92,9 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-6">
-              <h2 className="mb-3 text-xl font-semibold">プロンプトを学ぶ</h2>
-              <p className="mb-4 text-muted-foreground">
+            <div className="rounded-lg border border-border bg-card p-4 sm:p-6">
+              <h2 className="mb-3 text-lg sm:text-xl font-semibold">プロンプトを学ぶ</h2>
+              <p className="mb-4 text-sm sm:text-base text-muted-foreground">
                 効果的なプロンプトの書き方、パターン集、実践的な使い方を習得します。
               </p>
               <Link href="/prompting">
@@ -67,9 +104,9 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-6">
-              <h2 className="mb-3 text-xl font-semibold">リスクを理解する</h2>
-              <p className="mb-4 text-muted-foreground">
+            <div className="rounded-lg border border-border bg-card p-4 sm:p-6">
+              <h2 className="mb-3 text-lg sm:text-xl font-semibold">リスクを理解する</h2>
+              <p className="mb-4 text-sm sm:text-base text-muted-foreground">
                 生成AIを使う上でのリスクと注意点、ベストプラクティスを学びます。
               </p>
               <Link href="/risks">
@@ -81,8 +118,8 @@ export default function Home() {
           </div>
 
           {/* Learning Path */}
-          <div className="rounded-lg border border-border bg-card p-8">
-            <h2 className="mb-6 text-2xl font-bold">学習パス</h2>
+          <div className="rounded-lg border border-border bg-card p-6 sm:p-8">
+            <h2 className="mb-4 sm:mb-6 text-xl sm:text-2xl font-bold">学習パス</h2>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">

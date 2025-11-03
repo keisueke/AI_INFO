@@ -3,17 +3,20 @@ import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { TryItOut } from "@/components/content/TryItOut"
 import { CodeBlock } from "@/components/content/CodeBlock"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function MultiAgentPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>マルチエージェント開発の実践</h1>
         
         <p>
           Git Worktreeを活用して、複数のAIエージェント（Copilot、Cursor等）を
           並行して利用し、生産性を最大化する方法を学びます。
         </p>
+
+        <TableOfContents />
 
         <h2>なぜマルチエージェント開発なのか</h2>
         

@@ -2,152 +2,308 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { TryItOut } from "@/components/content/TryItOut"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function VibecordingPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
-        <h1>Vibecording: 音声駆動開発</h1>
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
+        <h1>Vibecoding: 雰囲気コーディング</h1>
         
         <p>
-          Vibecording（Vibe Recording）とは、音声入力を使ってコードを書く技術です。
-          GitHub Copilotと音声入力を組み合わせることで、
-          より直感的な開発体験が可能になります。
+          Vibecoding（雰囲気コーディング）とは、人間が音声やテキストで指示を出し、
+          AIが主体となってコードを書くコーディングスタイルです。
+          GitHub CopilotなどのAIアシスタントと人間が交互に作業を進める、
+          新しい開発のアプローチです。
         </p>
 
-        <h2>Vibecording とは</h2>
+        <TableOfContents />
+
+        <h2>Vibecoding とは</h2>
         
         <p>
-          キーボードではなく、音声でコードの意図を伝えながら開発する手法です。
-          特に複雑なロジックを説明したり、大きな構造を一気に定義したりする際に有効です。
+          Vibecodingは、Andrej Karpathyが提唱した概念で、
+          AIと人間が交互にコードを書き足していく「振動（vibe）」のような開発スタイルです。
+          人間が骨格や抽象を設計し、AIが一気に肉付けする。
+          次に人間がリファクタや設計の修正を行い、再びAIがコードを生成する、
+          この往復を繰り返すプロセスです。
         </p>
 
         <h3>従来の開発手法との違い</h3>
         <ul>
-          <li><strong>従来</strong>: キーボードで1行ずつコードを書く</li>
-          <li><strong>Vibecording</strong>: 音声で全体像を説明してから、AIに実装してもらう</li>
+          <li><strong>従来</strong>: 人間が1行ずつキーボードでコードを書く</li>
+          <li><strong>Vibecoding</strong>: 人間が要件・設計を指示し、AIが実装。人間がレビュー・修正し、再びAIが改善</li>
+          <li><strong>ペアプログラミング</strong>: 人間同士での会話に基づく協業</li>
+          <li><strong>Vibecoding</strong>: 人間の設計思考とAIの生成能力が交互に揺さぶり合う</li>
         </ul>
+        
+        <p className="my-4 italic text-gray-600 dark:text-gray-400">
+          「設計は人間、実装はAI」というタッグマッチが自然に実現する、
+          生成AI時代ならではの開発様式です。
+        </p>
 
-        <h3>適したシーンと適さないシーン</h3>
-
+        <h3>Vibecodingの特徴</h3>
+        
         <div className="my-6 space-y-4">
-          <div className="rounded-lg border border-green-500/30 bg-green-50 p-4 dark:border-green-400/30 dark:bg-green-950/20">
+          <div className="rounded-lg border border-green-500/50 bg-green-100/80 p-4 shadow-sm dark:border-green-400/60 dark:bg-green-950/70 dark:shadow-green-900/20">
             <h4 className="mb-2 font-semibold text-green-900 dark:text-green-100">
-              ✅ 適したシーン
+              ✅ Vibecodingが適しているシーン
             </h4>
-            <ul className="ml-4 mt-2 text-sm text-green-800 dark:text-green-200">
-              <li>大きな機能の初期実装</li>
-              <li>複雑なロジックの説明</li>
-              <li>プロジェクトの全体像を伝える</li>
-              <li>ドキュメントの作成</li>
+            <ul className="ml-4 mt-2 text-sm text-green-900 dark:text-green-50">
+              <li>プロトタイプやMVPの迅速な開発</li>
+              <li>ボイラープレートコードの生成</li>
+              <li>新しい技術の学習と実践</li>
+              <li>繰り返しが多い実装タスク</li>
+              <li>要件定義から実装までの一気通貫</li>
+              <li>テストコードの生成</li>
             </ul>
           </div>
 
-          <div className="rounded-lg border border-yellow-500/30 bg-yellow-50 p-4 dark:border-yellow-400/30 dark:bg-yellow-950/20">
+          <div className="rounded-lg border border-yellow-500/50 bg-yellow-100/80 p-4 shadow-sm dark:border-yellow-400/60 dark:bg-yellow-950/70 dark:shadow-yellow-900/20">
             <h4 className="mb-2 font-semibold text-yellow-900 dark:text-yellow-100">
-              ⚠️ 適さないシーン
+              ⚠️ 注意が必要なシーン
             </h4>
-            <ul className="ml-4 mt-2 text-sm text-yellow-800 dark:text-yellow-200">
-              <li>細かな微調整が必要な場合</li>
-              <li>正確な変数名や関数名が必要</li>
-              <li>音声認識が苦手な専門用語が多い</li>
-              <li>静かな環境で作業できない場合</li>
+            <ul className="ml-4 mt-2 text-sm text-yellow-900 dark:text-yellow-50">
+              <li>高度な最適化が必要な箇所</li>
+              <li>セキュリティが極めて重要な処理</li>
+              <li>既存システムとの細かな互換性調整</li>
+              <li>パフォーマンスクリティカルな部分</li>
+              <li>ビジネスロジックが複雑な領域</li>
             </ul>
           </div>
         </div>
 
         <CopilotTip>
-          音声入力とCopilotの組み合わせ:
-          まず音声で大まかな構造を説明してから、
-          Copilotを使って詳細を補完すると効率的です。
+          Vibecodingの基本フロー:
+          <ol className="ml-4 mt-2 text-sm">
+            <li>人間が要件・設計を明確に定義（テキストまたは音声）</li>
+            <li>AIがコードを生成</li>
+            <li>人間がレビュー・テスト・修正</li>
+            <li>必要に応じてAIに追加指示</li>
+            <li>このサイクルを繰り返す</li>
+          </ol>
         </CopilotTip>
 
-        <h2>実践時の注意点</h2>
+        <h2>Vibecodingの実践方法</h2>
 
-        <h3>1. 明確な発音とペース</h3>
+        <h3>1. 要件定義から始める</h3>
         <p>
-          技術用語を正確に発音し、適度なペースで話すことが重要です。
-          急ぐと音声認識の精度が下がります。
+          まず「何を作るのか」「ターゲットは誰か」「どんな機能が必要か」などを明確にします。
+          AIとチャットベースで対話しながら要件をまとめていきます。
+          最初から完璧に考えきっていなくても、「◯◯なアプリ作りたいんだけど要件定義手伝ってー」から
+          会話を始めれば、AIが必要な情報をヒアリングしてくれます。
         </p>
 
-        <h3>2. 技術用語の正確な発音</h3>
+        <h3>2. 段階的な指示と実装</h3>
         <p>
-          以下のような単語は、正確な発音を意識しましょう：
-        </p>
-        <ul>
-          <li><code>useState</code>: 「ユーズステート」</li>
-          <li><code>TypeScript</code>: 「タイプスクリプト」</li>
-          <li><code>async/await</code>: 「アシンク・アウェイト」</li>
-        </ul>
-
-        <h3>3. コンテキストの事前設定</h3>
-        <p>
-          音声入力の前に、簡単なコメントで状況を説明しておくと、
-          より正確な結果が得られます。
-        </p>
-
-        <h3>4. 音声認識の限界を理解する</h3>
-        <p>
-          音声認識は完璧ではありません。特に：
+          一度にすべてを実装しようとせず、段階的に指示を出しましょう：
         </p>
         <ul>
-          <li>混同しやすい単語（例: 「for」と「four」）</li>
-          <li>記号の認識（例: `===` が「イコールイコールイコール」となる）</li>
-          <li>長い文字列の入力</li>
+          <li><strong>ステップ1</strong>: 全体の構造・アーキテクチャを指示</li>
+          <li><strong>ステップ2</strong>: 各コンポーネント・関数の詳細を指示</li>
+          <li><strong>ステップ3</strong>: エラーハンドリングやエッジケースの対応</li>
+          <li><strong>ステップ4</strong>: テストコードの追加</li>
         </ul>
 
-        <h3>5. ノイズ対策</h3>
+        <h3>3. コンテキストの提供</h3>
         <p>
-          マイクの品質、周囲の雑音、エコーの有無が精度に影響します。
-          可能な限り静かな環境を選びましょう。
+          AIがより良いコードを生成するために、以下を提供しましょう：
+        </p>
+        <ul>
+          <li>使用している技術スタック（React、TypeScript、Next.jsなど）</li>
+          <li>プロジェクトのディレクトリ構造</li>
+          <li>既存のコードスタイルや規約</li>
+          <li>外部APIやライブラリの情報</li>
+        </ul>
+
+        <h3>4. レビューとリファクタリング</h3>
+        <p>
+          AIが生成したコードは必ずレビューしましょう：
+        </p>
+        <ul>
+          <li>ビジネスロジックが正しく実装されているか</li>
+          <li>セキュリティ上の問題がないか</li>
+          <li>パフォーマンスや可読性は適切か</li>
+          <li>テストは十分か</li>
+        </ul>
+        <p>
+          問題があれば、具体的な修正指示を出してAIに改善してもらいます。
         </p>
 
-        <h2>効果的な使い方</h2>
-
-        <h3>コード説明時のベストプラクティス</h3>
+        <h3>5. 人間とAIの役割分担を明確に</h3>
         <p>
-          音声入力で効果的にコードを説明するには、構造化された説明が重要です。
+          Vibecodingでは以下のように役割を分担すると効率的です：
+        </p>
+        <ul>
+          <li><strong>人間</strong>: 要件定義、設計、レビュー、テスト、デバッグ</li>
+          <li><strong>AI</strong>: 実装コードの生成、ボイラープレートの作成、リファクタリング</li>
+        </ul>
+
+        <h2>効果的な指示の出し方</h2>
+
+        <h3>良い指示と悪い指示</h3>
+        <p>
+          AIに効果的に指示を出すには、具体的で構造化された説明が重要です。
         </p>
 
         <div className="my-6 rounded-lg border border-border bg-card p-6">
-          <h4 className="mb-3 font-semibold">良い説明の例</h4>
-          <p className="mb-3 text-sm">
-            「ユーザー登録フォームを作成。名前、メール、パスワードの3つの入力フィールド。
-            バリデーション機能付き。エラーがあれば赤色で表示。送信ボタンはフッターに配置。」
-          </p>
-          <h4 className="mb-3 font-semibold">悪い説明の例</h4>
-          <p className="text-sm">
-            「フォーム作って。何か入力できて、エラーが出る感じで。適当に」
-          </p>
+          <h4 className="mb-3 font-semibold">✅ 良い指示の例</h4>
+          <div className="space-y-2 text-sm">
+            <p className="font-medium">例1: コンポーネント作成</p>
+            <p className="text-gray-700 dark:text-gray-300">
+              「Reactでユーザー登録フォームコンポーネントを作成してください。
+              名前、メール、パスワードの3つの入力フィールド。
+              TypeScriptで型定義し、バリデーション機能付き。
+              エラーメッセージは赤色で表示。送信ボタンはフッターに配置し、
+              onSubmitでバリデーション後にAPIエンドポイント /api/register にPOSTリクエストを送信。」
+            </p>
+            <p className="font-medium mt-4">例2: API関数作成</p>
+            <p className="text-gray-700 dark:text-gray-300">
+              「fetchを使ったAPI呼び出し関数を作成。
+              エラーハンドリング、リトライ機能、型安全なレスポンス処理を含める。
+              Next.js 14のApp Router環境で使用。」
+            </p>
+          </div>
+          <h4 className="mb-3 mt-4 font-semibold">❌ 悪い指示の例</h4>
+          <div className="space-y-2 text-sm">
+            <p className="text-gray-700 dark:text-gray-300">
+              「フォーム作って。何か入力できて、エラーが出る感じで。適当に」
+            </p>
+            <p className="text-gray-700 dark:text-gray-300">
+              「API呼び出しのコード書いて」
+            </p>
+          </div>
         </div>
 
-        <h3>複雑なロジックの口頭説明テクニック</h3>
+        <h3>効果的な指示のコツ</h3>
         <ol>
-          <li><strong>全体像を先に</strong>: まず何を作るかを説明</li>
-          <li><strong>詳細を追加</strong>: 段階的に詳細を加える</li>
-          <li><strong>具体例を挙げる</strong>: 実際の値やケースを提示</li>
-          <li><strong>確認する</strong>: 生成されたコードをレビュー</li>
+          <li><strong>具体的な要件を明確に</strong>: 何を作るか、どんな機能が必要か</li>
+          <li><strong>技術スタックを指定</strong>: 使用する言語、フレームワーク、ライブラリ</li>
+          <li><strong>制約や要件を明記</strong>: パフォーマンス、セキュリティ、互換性</li>
+          <li><strong>例や期待する動作を示す</strong>: 入力と出力の例</li>
+          <li><strong>段階的に詳細化</strong>: まず全体像、次に詳細</li>
         </ol>
 
+        <h3>生成AIが認識しやすい形式</h3>
+        <p>
+          AIに情報を伝える際は、構造化された形式を使用すると認識精度が向上します。
+          以下の形式を優先的に使用しましょう：
+        </p>
+        
+        <div className="my-6 space-y-4">
+          <div className="rounded-lg border border-blue-500/50 bg-blue-100/80 p-4 shadow-sm dark:border-blue-400/60 dark:bg-blue-950/70 dark:shadow-blue-900/20">
+            <h4 className="mb-2 font-semibold text-blue-900 dark:text-blue-100">
+              ✅ 認識しやすい形式
+            </h4>
+            <ul className="ml-4 mt-2 space-y-2 text-sm text-blue-900 dark:text-blue-50">
+              <li>
+                <strong>マークダウン</strong>: 見出し、リスト、コードブロックなど構造化された形式
+                <div className="mt-1 rounded bg-white/50 p-2 text-xs font-mono dark:bg-gray-900/50">
+                  {`\`\`\`typescript
+// コード例
+\`\`\``}
+                </div>
+              </li>
+              <li>
+                <strong>コードブロック</strong>: 言語指定付きのコードブロック（```typescript、```jsonなど）
+              </li>
+              <li>
+                <strong>構造化データ</strong>: JSON、YAML、XMLなどの形式化されたデータ
+              </li>
+              <li>
+                <strong>テーブル形式</strong>: MarkdownテーブルやHTMLテーブル
+              </li>
+              <li>
+                <strong>箇条書き</strong>: 番号付きリストや箇条書きリスト
+              </li>
+              <li>
+                <strong>コメント形式</strong>: コード内のコメントとして記述
+              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-lg border border-red-500/50 bg-red-100/80 p-4 shadow-sm dark:border-red-400/60 dark:bg-red-950/70 dark:shadow-red-900/20">
+            <h4 className="mb-2 font-semibold text-red-900 dark:text-red-100">
+              ❌ 認識しにくい形式
+            </h4>
+            <ul className="ml-4 mt-2 space-y-2 text-sm text-red-900 dark:text-red-50">
+              <li>
+                <strong>画像のみ</strong>: テキスト情報が画像に埋め込まれている場合（OCRが必要）
+              </li>
+              <li>
+                <strong>手書きテキスト</strong>: 手書きのメモやスキャンした文書
+              </li>
+              <li>
+                <strong>複雑なPDF</strong>: テーブルや図が多く、構造化されていないPDF
+              </li>
+              <li>
+                <strong>長文の散文</strong>: 構造化されていない長い文章
+              </li>
+              <li>
+                <strong>特殊な記号や絵文字</strong>: 多すぎる絵文字や装飾文字
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="my-6 rounded-lg border border-border bg-card p-6">
+          <h4 className="mb-3 font-semibold">実践例: 良い形式と悪い形式</h4>
+          <div className="space-y-4 text-sm">
+            <div>
+              <p className="font-medium mb-2">✅ 良い例（マークダウン + コードブロック）</p>
+              <div className="rounded bg-gray-100 p-3 font-mono text-xs dark:bg-gray-800">
+                <pre className="whitespace-pre-wrap">{`## 要件定義
+
+### 機能要件
+- ユーザー登録フォーム
+- バリデーション機能
+- エラーハンドリング
+
+### コード例
+\`\`\`typescript
+interface UserForm {
+  name: string;
+  email: string;
+  password: string;
+}
+\`\`\``}</pre>
+              </div>
+            </div>
+            <div>
+              <p className="font-medium mb-2">❌ 悪い例（散文のみ）</p>
+              <div className="rounded bg-gray-100 p-3 text-xs dark:bg-gray-800">
+                ユーザー登録フォームを作りたいんだけど、名前とメールとパスワードがあって、バリデーションもしたいし、エラーもちゃんと処理したいから、TypeScriptで書いて、インターフェースも作って、いい感じにしてほしい。
+              </div>
+            </div>
+          </div>
+        </div>
+
         <CopilotTip>
-          音声で大まかな構造を説明してから、Copilotで詳細を補完する方法:
+          Copilotを使ったVibecodingの実践:
           <ol className="ml-4 mt-2 text-sm">
-            <li>音声で「API呼び出しの関数を作成」と説明</li>
-            <li>Copilotが補完候補を提示</li>
-            <li>必要に応じて音声で追加指示</li>
-            <li>最後にキーボードで微調整</li>
+            <li>コメントで要件や設計を記述</li>
+            <li>Copilotがコード補完を提案</li>
+            <li>生成されたコードをレビュー</li>
+            <li>必要に応じて追加のコメントで修正指示</li>
+            <li>このサイクルでコードを完成させる</li>
           </ol>
         </CopilotTip>
 
         <TryItOut>
-          音声入力で簡単な関数を作成してみましょう。
+          Vibecodingの練習をしてみましょう。
           <ol className="ml-4 mt-2">
-            <li>新しいTypeScriptファイルを作成</li>
-            <li>音声入力で「配列の合計を求める関数。数値の配列を受け取って、合計を返す。エラーハンドリング付き」と説明</li>
-            <li>生成されたコードを確認</li>
-            <li>必要に応じて修正</li>
+            <li>新しいプロジェクトまたはファイルを作成</li>
+            <li>コメントやチャットで以下のように指示:
+              <ul className="ml-4 mt-1">
+                <li>「TypeScriptで配列の合計を求める関数を作成。数値の配列を受け取って、合計を返す。エラーハンドリング付きで、空配列の場合は0を返す。」</li>
+              </ul>
+            </li>
+            <li>AI（CopilotやChatGPT）が生成したコードを確認</li>
+            <li>テストを書いて動作を確認</li>
+            <li>必要に応じて「エッジケースの処理を追加して」など追加指示</li>
+            <li>コードをレビューして改善点があれば指示</li>
           </ol>
-          この練習を通じて、音声入力の感覚を掴みましょう。
+          この練習を通じて、AIとの協業の感覚を掴みましょう。
         </TryItOut>
 
         <div className="my-8 flex gap-4">

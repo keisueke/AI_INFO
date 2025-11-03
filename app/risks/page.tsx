@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button"
 import { CopilotTip } from "@/components/content/CopilotTip"
 import { TryItOut } from "@/components/content/TryItOut"
 import { CodeBlock } from "@/components/content/CodeBlock"
+import TableOfContents from "@/components/content/TableOfContents"
 
 export default function RisksPage() {
   return (
-    <div className="container mx-auto max-w-4xl px-4 py-8">
-      <article className="prose prose-slate dark:prose-invert max-w-none">
+    <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 lg:py-10">
+      <article className="prose prose-sm sm:prose md:prose-lg prose-slate dark:prose-invert max-w-none">
         <h1>生成AIのリスクと注意点</h1>
         
         <p>
@@ -15,6 +16,8 @@ export default function RisksPage() {
           そのリスクと限界を理解することが重要です。
           ここでは、実際に起こり得る問題と対策を学びます。
         </p>
+
+        <TableOfContents />
 
         <h2>セキュリティリスク</h2>
 
