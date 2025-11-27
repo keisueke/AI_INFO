@@ -1,0 +1,2618 @@
+{
+  "schemaVersion": 1,
+  "projectPath": "/Users/user/development/GitHub/AI_INFO",
+  "projectRootName": "AI_INFO",
+  "graphRenderingMode": "normal",
+  "linkDisplayMode": "all",
+  "graphStats": {
+    "totalNodes": 67,
+    "folders": 24,
+    "files": 43,
+    "images": 5,
+    "videos": 0,
+    "audio": 0,
+    "code": 28,
+    "text": 2,
+    "html": 0,
+    "yaml": 0,
+    "json": 3,
+    "other": 5,
+    "totalLines": 0,
+    "maxLines": 0
+  },
+  "directoryTree": {
+    "name": "AI_INFO",
+    "type": "directory",
+    "path": "AI_INFO",
+    "children": [
+      {
+        "name": ".kamui",
+        "type": "directory",
+        "path": ".kamui",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": ".next",
+        "type": "directory",
+        "path": ".next",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": ".worktrees",
+        "type": "directory",
+        "path": ".worktrees",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "app",
+        "type": "directory",
+        "path": "app",
+        "children": [
+          {
+            "name": "basics",
+            "type": "directory",
+            "path": "app/basics",
+            "children": [
+              {
+                "name": "capabilities",
+                "type": "directory",
+                "path": "app/basics/capabilities",
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file",
+                    "path": "app/basics/capabilities/page.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "how-it-works",
+                "type": "directory",
+                "path": "app/basics/how-it-works",
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file",
+                    "path": "app/basics/how-it-works/page.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/basics/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "copilot-features",
+            "type": "directory",
+            "path": "app/copilot-features",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/copilot-features/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "image-generation-tips",
+            "type": "directory",
+            "path": "app/image-generation-tips",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/image-generation-tips/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "prompting",
+            "type": "directory",
+            "path": "app/prompting",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/prompting/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "resources",
+            "type": "directory",
+            "path": "app/resources",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/resources/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "risks",
+            "type": "directory",
+            "path": "app/risks",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/risks/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "vibecording",
+            "type": "directory",
+            "path": "app/vibecording",
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/vibecording/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "worktree",
+            "type": "directory",
+            "path": "app/worktree",
+            "children": [
+              {
+                "name": "multi-agent",
+                "type": "directory",
+                "path": "app/worktree/multi-agent",
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file",
+                    "path": "app/worktree/multi-agent/page.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "path": "app/worktree/page.tsx"
+              }
+            ]
+          },
+          {
+            "name": "favicon.ico",
+            "type": "file",
+            "path": "app/favicon.ico"
+          },
+          {
+            "name": "globals.css",
+            "type": "file",
+            "path": "app/globals.css"
+          },
+          {
+            "name": "layout.tsx",
+            "type": "file",
+            "path": "app/layout.tsx"
+          },
+          {
+            "name": "page.tsx",
+            "type": "file",
+            "path": "app/page.tsx"
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "type": "directory",
+        "path": "components",
+        "children": [
+          {
+            "name": "content",
+            "type": "directory",
+            "path": "components/content",
+            "children": [
+              {
+                "name": "CodeBlock.tsx",
+                "type": "file",
+                "path": "components/content/CodeBlock.tsx"
+              },
+              {
+                "name": "CopilotTip.tsx",
+                "type": "file",
+                "path": "components/content/CopilotTip.tsx"
+              },
+              {
+                "name": "TableOfContents.tsx",
+                "type": "file",
+                "path": "components/content/TableOfContents.tsx"
+              },
+              {
+                "name": "TryItOut.tsx",
+                "type": "file",
+                "path": "components/content/TryItOut.tsx"
+              }
+            ]
+          },
+          {
+            "name": "layout",
+            "type": "directory",
+            "path": "components/layout",
+            "children": [
+              {
+                "name": "Footer.tsx",
+                "type": "file",
+                "path": "components/layout/Footer.tsx"
+              },
+              {
+                "name": "Header.tsx",
+                "type": "file",
+                "path": "components/layout/Header.tsx"
+              },
+              {
+                "name": "Sidebar.tsx",
+                "type": "file",
+                "path": "components/layout/Sidebar.tsx"
+              }
+            ]
+          },
+          {
+            "name": "ui",
+            "type": "directory",
+            "path": "components/ui",
+            "children": [
+              {
+                "name": "button.tsx",
+                "type": "file",
+                "path": "components/ui/button.tsx"
+              }
+            ]
+          },
+          {
+            "name": "AIPersonaDiagnosis.tsx",
+            "type": "file",
+            "path": "components/AIPersonaDiagnosis.tsx"
+          },
+          {
+            "name": "AIPersonaResultModal.tsx",
+            "type": "file",
+            "path": "components/AIPersonaResultModal.tsx"
+          }
+        ]
+      },
+      {
+        "name": "docs",
+        "type": "directory",
+        "path": "docs",
+        "children": [
+          {
+            "name": "WRITING_GUIDELINES.md",
+            "type": "file",
+            "path": "docs/WRITING_GUIDELINES.md"
+          }
+        ]
+      },
+      {
+        "name": "lib",
+        "type": "directory",
+        "path": "lib",
+        "children": [
+          {
+            "name": "personas.ts",
+            "type": "file",
+            "path": "lib/personas.ts"
+          },
+          {
+            "name": "questions.ts",
+            "type": "file",
+            "path": "lib/questions.ts"
+          },
+          {
+            "name": "utils.ts",
+            "type": "file",
+            "path": "lib/utils.ts"
+          }
+        ]
+      },
+      {
+        "name": "node_modules",
+        "type": "directory",
+        "path": "node_modules",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "public",
+        "type": "directory",
+        "path": "public",
+        "children": [
+          {
+            "name": "file.svg",
+            "type": "file",
+            "path": "public/file.svg"
+          },
+          {
+            "name": "globe.svg",
+            "type": "file",
+            "path": "public/globe.svg"
+          },
+          {
+            "name": "next.svg",
+            "type": "file",
+            "path": "public/next.svg"
+          },
+          {
+            "name": "vercel.svg",
+            "type": "file",
+            "path": "public/vercel.svg"
+          },
+          {
+            "name": "window.svg",
+            "type": "file",
+            "path": "public/window.svg"
+          }
+        ]
+      },
+      {
+        "name": ".gitignore",
+        "type": "file",
+        "path": ".gitignore"
+      },
+      {
+        "name": "eslint.config.mjs",
+        "type": "file",
+        "path": "eslint.config.mjs"
+      },
+      {
+        "name": "next-env.d.ts",
+        "type": "file",
+        "path": "next-env.d.ts"
+      },
+      {
+        "name": "next.config.ts",
+        "type": "file",
+        "path": "next.config.ts"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "file",
+        "path": "package-lock.json"
+      },
+      {
+        "name": "package.json",
+        "type": "file",
+        "path": "package.json"
+      },
+      {
+        "name": "postcss.config.mjs",
+        "type": "file",
+        "path": "postcss.config.mjs"
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "path": "README.md"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "file",
+        "path": "tsconfig.json"
+      }
+    ]
+  },
+  "graphData": {
+    "nodes": [
+      {
+        "id": "AI_INFO",
+        "name": "AI_INFO",
+        "path": "AI_INFO",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": null,
+        "childFileCount": 9,
+        "x": -4.3082237880394,
+        "y": -49.62043510103457,
+        "z": -34.17686869124525,
+        "vx": 0.000008670495455634436,
+        "vy": -0.00003131045883855524,
+        "vz": -0.000008975248313346864
+      },
+      {
+        "id": "AI_INFO/.kamui",
+        "name": ".kamui",
+        "path": "AI_INFO/.kamui",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -7.400741634099564,
+        "y": -28.051897069648376,
+        "z": -1.086341115705558,
+        "vx": -0.000007620061243360875,
+        "vy": -0.000040483230481664236,
+        "vz": -0.000003310283489030003
+      },
+      {
+        "id": "AI_INFO/.next",
+        "name": ".next",
+        "path": "AI_INFO/.next",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 2.3130322680873565,
+        "y": -90.40112521340713,
+        "z": -32.15542864430481,
+        "vx": 0.000009011736033325082,
+        "vy": -0.00003102585495315773,
+        "vz": -0.00001740685026655186
+      },
+      {
+        "id": "AI_INFO/.worktrees",
+        "name": ".worktrees",
+        "path": "AI_INFO/.worktrees",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 28.390860390820883,
+        "y": -28.070038512754753,
+        "z": -21.10148652243515,
+        "vx": 0.0000025672397860361665,
+        "vy": -0.00002632386096978255,
+        "vz": 0.00000497261330572098
+      },
+      {
+        "id": "AI_INFO/app",
+        "name": "app",
+        "path": "AI_INFO/app",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 4,
+        "x": -14.716069354449237,
+        "y": 113.69191476470735,
+        "z": 95.22357673987598,
+        "vx": 0.000002900132280874607,
+        "vy": -0.000013988249144506611,
+        "vz": -0.00004741456312690979
+      },
+      {
+        "id": "AI_INFO/app/basics",
+        "name": "basics",
+        "path": "AI_INFO/app/basics",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": 28.38348547458475,
+        "y": 215.67274697399483,
+        "z": 113.93354166280687,
+        "vx": -0.000009325585507791288,
+        "vy": 0.000010714516089986718,
+        "vz": -0.000043872514872761385
+      },
+      {
+        "id": "AI_INFO/app/basics/capabilities",
+        "name": "capabilities",
+        "path": "AI_INFO/app/basics/capabilities",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/basics",
+        "childFileCount": 1,
+        "x": 24.28625697480658,
+        "y": 277.46568749878895,
+        "z": 117.65331054281847,
+        "vx": 0.000005900535469152048,
+        "vy": 0.000024296478941845492,
+        "vz": -0.00004467573941834855
+      },
+      {
+        "id": "AI_INFO/app/basics/capabilities/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/basics/capabilities/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/basics/capabilities",
+        "childFileCount": 0,
+        "x": 23.158016451522176,
+        "y": 319.37164329650875,
+        "z": 123.40298735056025,
+        "vx": 0.000005807614587004103,
+        "vy": 0.000028938623228522476,
+        "vz": -0.00004453614136393217
+      },
+      {
+        "id": "AI_INFO/app/basics/how-it-works",
+        "name": "how-it-works",
+        "path": "AI_INFO/app/basics/how-it-works",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/basics",
+        "childFileCount": 1,
+        "x": 75.06629381304725,
+        "y": 255.17360239965828,
+        "z": 126.3009830657873,
+        "vx": -0.0000013727239802286724,
+        "vy": 0.000028071952560466353,
+        "vz": -0.000035567435434704454
+      },
+      {
+        "id": "AI_INFO/app/basics/how-it-works/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/basics/how-it-works/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/basics/how-it-works",
+        "childFileCount": 0,
+        "x": 104.88900882754986,
+        "y": 283.4527703437303,
+        "z": 137.38824743577763,
+        "vx": 0.000009001995524889947,
+        "vy": 0.000040919184100804926,
+        "vz": -0.00002886712926804034
+      },
+      {
+        "id": "AI_INFO/app/basics/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/basics/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/basics",
+        "childFileCount": 0,
+        "x": 36.14177873758079,
+        "y": 240.54112025028783,
+        "z": 141.97436678727084,
+        "vx": -0.000012067363869560998,
+        "vy": 0.00002575835674252661,
+        "vz": -0.000047114948891087114
+      },
+      {
+        "id": "AI_INFO/app/copilot-features",
+        "name": "copilot-features",
+        "path": "AI_INFO/app/copilot-features",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": -21.635831854145074,
+        "y": 154.1371604574382,
+        "z": 54.6966477108892,
+        "vx": -0.000016656306229138785,
+        "vy": 0.000012792191749593384,
+        "vz": -0.00003110232162410462
+      },
+      {
+        "id": "AI_INFO/app/copilot-features/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/copilot-features/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/copilot-features",
+        "childFileCount": 0,
+        "x": -29.03022643803967,
+        "y": 186.54819257739578,
+        "z": 27.76715127237887,
+        "vx": -0.000027144503834871993,
+        "vy": 0.000009857512726588816,
+        "vz": -0.00005945124430320603
+      },
+      {
+        "id": "AI_INFO/app/image-generation-tips",
+        "name": "image-generation-tips",
+        "path": "AI_INFO/app/image-generation-tips",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": 0.9696026230487597,
+        "y": 77.48927477037125,
+        "z": 138.57022848951203,
+        "vx": -0.0000012187339234126924,
+        "vy": -0.000014955351984328003,
+        "vz": -0.0000389194353157662
+      },
+      {
+        "id": "AI_INFO/app/image-generation-tips/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/image-generation-tips/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/image-generation-tips",
+        "childFileCount": 0,
+        "x": 11.068022115612877,
+        "y": 55.52828669605414,
+        "z": 175.11808460795746,
+        "vx": -0.000004545915058581185,
+        "vy": -0.00003604300716084929,
+        "vz": -0.000021545436372394058
+      },
+      {
+        "id": "AI_INFO/app/prompting",
+        "name": "prompting",
+        "path": "AI_INFO/app/prompting",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": -67.74593144771192,
+        "y": 129.0527133904308,
+        "z": 76.78531115452022,
+        "vx": -0.000018806432819063487,
+        "vy": 0.000012403818980836842,
+        "vz": -0.000026881031352174494
+      },
+      {
+        "id": "AI_INFO/app/prompting/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/prompting/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/prompting",
+        "childFileCount": 0,
+        "x": -106.06864540133866,
+        "y": 144.7952543262432,
+        "z": 66.61473057286466,
+        "vx": -0.000041743573373070604,
+        "vy": 0.000016509399732698714,
+        "vz": -0.00003233516293228572
+      },
+      {
+        "id": "AI_INFO/app/resources",
+        "name": "resources",
+        "path": "AI_INFO/app/resources",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": -57.42355300888887,
+        "y": 82.63221190985075,
+        "z": 115.07800385658186,
+        "vx": -0.000021430915911441305,
+        "vy": -0.000004499998184287338,
+        "vz": -0.000020813437555749922
+      },
+      {
+        "id": "AI_INFO/app/resources/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/resources/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/resources",
+        "childFileCount": 0,
+        "x": -89.08289289301977,
+        "y": 63.70836271178561,
+        "z": 135.65951098599825,
+        "vx": -0.00004147513173525303,
+        "vy": -0.000004449231755848042,
+        "vz": -0.000023656177541046015
+      },
+      {
+        "id": "AI_INFO/app/risks",
+        "name": "risks",
+        "path": "AI_INFO/app/risks",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": 9.508298072326314,
+        "y": 123.87516693528853,
+        "z": 148.30967261073334,
+        "vx": 0.000017530329725268996,
+        "vy": -0.0000134294876762531,
+        "vz": -0.000048464387910881716
+      },
+      {
+        "id": "AI_INFO/app/risks/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/risks/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/risks",
+        "childFileCount": 0,
+        "x": 26.98162364782081,
+        "y": 129.27793671025253,
+        "z": 189.46400305569287,
+        "vx": 0.000018907475326182173,
+        "vy": -0.000010033476221097853,
+        "vz": -0.000021763302811692914
+      },
+      {
+        "id": "AI_INFO/app/vibecording",
+        "name": "vibecording",
+        "path": "AI_INFO/app/vibecording",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": 40.60768520708223,
+        "y": 113.09123360046488,
+        "z": 98.28765982575042,
+        "vx": -0.0000022883829435747627,
+        "vy": -0.00003293206021836389,
+        "vz": -0.00006807839441674257
+      },
+      {
+        "id": "AI_INFO/app/vibecording/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/vibecording/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/vibecording",
+        "childFileCount": 0,
+        "x": 82.73217273359452,
+        "y": 115.74371842526493,
+        "z": 105.65790266935079,
+        "vx": 0.000011248683192703336,
+        "vy": -0.000018899090555699207,
+        "vz": -0.00005639142082518421
+      },
+      {
+        "id": "AI_INFO/app/worktree",
+        "name": "worktree",
+        "path": "AI_INFO/app/worktree",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 1,
+        "x": -61.653496661494664,
+        "y": 155.8301768432574,
+        "z": 167.7363107351918,
+        "vx": 0.000011052911747012568,
+        "vy": -0.000022034298754932332,
+        "vz": -0.00005177076928508706
+      },
+      {
+        "id": "AI_INFO/app/worktree/multi-agent",
+        "name": "multi-agent",
+        "path": "AI_INFO/app/worktree/multi-agent",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/worktree",
+        "childFileCount": 1,
+        "x": -90.07153563086408,
+        "y": 189.51922259612365,
+        "z": 222.2692715588311,
+        "vx": -0.000003810750323595019,
+        "vy": -0.000016279031868159354,
+        "vz": -0.00002243486956258772
+      },
+      {
+        "id": "AI_INFO/app/worktree/multi-agent/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/worktree/multi-agent/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/worktree/multi-agent",
+        "childFileCount": 0,
+        "x": -109.01358395260857,
+        "y": 208.93823780375564,
+        "z": 255.2079545805989,
+        "vx": -0.000009810489864598285,
+        "vy": -0.00000817786288915777,
+        "vz": -0.000004164933345421048
+      },
+      {
+        "id": "AI_INFO/app/worktree/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/worktree/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app/worktree",
+        "childFileCount": 0,
+        "x": -89.7008226704881,
+        "y": 166.46336567453818,
+        "z": 195.3416618516666,
+        "vx": 0.000004278636840937395,
+        "vy": 0.0000014818312227676987,
+        "vz": -0.000041340993693052295
+      },
+      {
+        "id": "AI_INFO/app/favicon.ico",
+        "name": "favicon.ico",
+        "path": "AI_INFO/app/favicon.ico",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 0,
+        "x": -4.117749902615623,
+        "y": 91.72578323690108,
+        "z": 68.27469119208479,
+        "vx": -0.000012064879261223173,
+        "vy": 0.000001069506453771894,
+        "vz": -0.00006838871158376732
+      },
+      {
+        "id": "AI_INFO/app/globals.css",
+        "name": "globals.css",
+        "path": "AI_INFO/app/globals.css",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#1572b6",
+        "baseColor": "#1572b6",
+        "originalColor": "#1572b6",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 0,
+        "x": 9.116592808374177,
+        "y": 141.7046991223347,
+        "z": 86.17571799992855,
+        "vx": 0.00003035826285045449,
+        "vy": -0.00005074385295387707,
+        "vz": -0.00010164883177165637
+      },
+      {
+        "id": "AI_INFO/app/layout.tsx",
+        "name": "layout.tsx",
+        "path": "AI_INFO/app/layout.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 0,
+        "x": -35.615227145845665,
+        "y": 116.24570268596364,
+        "z": 126.40281689964245,
+        "vx": 0.0000025181167357492886,
+        "vy": -0.000007948923065205847,
+        "vz": -0.00005485199192655622
+      },
+      {
+        "id": "AI_INFO/app/page.tsx",
+        "name": "page.tsx",
+        "path": "AI_INFO/app/page.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/app",
+        "childFileCount": 0,
+        "x": -34.139822777697,
+        "y": 145.81332777678836,
+        "z": 103.07353131265423,
+        "vx": 0.0000345470250815557,
+        "vy": -2.0864397979171905e-7,
+        "vz": -0.00004243373397837501
+      },
+      {
+        "id": "AI_INFO/components",
+        "name": "components",
+        "path": "AI_INFO/components",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 2,
+        "x": 39.848243908627815,
+        "y": -149.41128423319103,
+        "z": -128.58569304410258,
+        "vx": 0.000001043121695601893,
+        "vy": -0.000012627440842242068,
+        "vz": -0.000020438211959610582
+      },
+      {
+        "id": "AI_INFO/components/content",
+        "name": "content",
+        "path": "AI_INFO/components/content",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components",
+        "childFileCount": 4,
+        "x": 50.22346072596064,
+        "y": -175.300131186061,
+        "z": -227.73306937960632,
+        "vx": 0.0000049583017554371115,
+        "vy": -0.000032346560957711006,
+        "vz": -0.00003658441394443496
+      },
+      {
+        "id": "AI_INFO/components/content/CodeBlock.tsx",
+        "name": "CodeBlock.tsx",
+        "path": "AI_INFO/components/content/CodeBlock.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/content",
+        "childFileCount": 0,
+        "x": 27.90602262187934,
+        "y": -182.73953036617544,
+        "z": -260.42059889918744,
+        "vx": 0.000010744934226326284,
+        "vy": -0.00004131025934329504,
+        "vz": -0.000052278848948091706
+      },
+      {
+        "id": "AI_INFO/components/content/CopilotTip.tsx",
+        "name": "CopilotTip.tsx",
+        "path": "AI_INFO/components/content/CopilotTip.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/content",
+        "childFileCount": 0,
+        "x": 55.62265626305665,
+        "y": -159.7394162412446,
+        "z": -264.36213183773634,
+        "vx": 0.00001012985908881452,
+        "vy": -0.00004504113741908577,
+        "vz": -0.00005220146595951274
+      },
+      {
+        "id": "AI_INFO/components/content/TableOfContents.tsx",
+        "name": "TableOfContents.tsx",
+        "path": "AI_INFO/components/content/TableOfContents.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/content",
+        "childFileCount": 0,
+        "x": 50.83228435994745,
+        "y": -206.34404927924626,
+        "z": -254.49615388191904,
+        "vx": 0.00001106831924635585,
+        "vy": -0.000038923960736243815,
+        "vz": -0.000040500504590987214
+      },
+      {
+        "id": "AI_INFO/components/content/TryItOut.tsx",
+        "name": "TryItOut.tsx",
+        "path": "AI_INFO/components/content/TryItOut.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/content",
+        "childFileCount": 0,
+        "x": 76.71571960512924,
+        "y": -184.78226170628832,
+        "z": -257.40825562502346,
+        "vx": 0.000011782791508640373,
+        "vy": -0.000037511376181338216,
+        "vz": -0.00003597405021059083
+      },
+      {
+        "id": "AI_INFO/components/layout",
+        "name": "layout",
+        "path": "AI_INFO/components/layout",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components",
+        "childFileCount": 3,
+        "x": 105.16896131605665,
+        "y": -214.6655030063776,
+        "z": -132.98424590090644,
+        "vx": -0.000002069953442680171,
+        "vy": -0.000024251562685738144,
+        "vz": -0.000019688915560751672
+      },
+      {
+        "id": "AI_INFO/components/layout/Footer.tsx",
+        "name": "Footer.tsx",
+        "path": "AI_INFO/components/layout/Footer.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/layout",
+        "childFileCount": 0,
+        "x": 122.26881845098184,
+        "y": -248.99538129370603,
+        "z": -118.59384990114515,
+        "vx": 0.000008999038371919047,
+        "vy": -0.00003444989785437365,
+        "vz": -0.00001879056900257099
+      },
+      {
+        "id": "AI_INFO/components/layout/Header.tsx",
+        "name": "Header.tsx",
+        "path": "AI_INFO/components/layout/Header.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/layout",
+        "childFileCount": 0,
+        "x": 123.44641439443488,
+        "y": -246.34448912614877,
+        "z": -151.90430290064205,
+        "vx": 0.000006271607946663079,
+        "vy": -0.000033971477701238596,
+        "vz": -0.00001791853092972058
+      },
+      {
+        "id": "AI_INFO/components/layout/Sidebar.tsx",
+        "name": "Sidebar.tsx",
+        "path": "AI_INFO/components/layout/Sidebar.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/layout",
+        "childFileCount": 0,
+        "x": 144.70452747227205,
+        "y": -226.0069596109413,
+        "z": -135.00781151896504,
+        "vx": 0.0000048008071908011025,
+        "vy": -0.000028746354367106333,
+        "vz": -0.000018282211707479166
+      },
+      {
+        "id": "AI_INFO/components/ui",
+        "name": "ui",
+        "path": "AI_INFO/components/ui",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components",
+        "childFileCount": 1,
+        "x": 12.474129235846432,
+        "y": -194.6761828521376,
+        "z": -145.77924223966735,
+        "vx": 0.0000010928940543031088,
+        "vy": -0.000012679461452446573,
+        "vz": -0.00002743133503078367
+      },
+      {
+        "id": "AI_INFO/components/ui/button.tsx",
+        "name": "button.tsx",
+        "path": "AI_INFO/components/ui/button.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components/ui",
+        "childFileCount": 0,
+        "x": -6.820888052600237,
+        "y": -230.37040547885155,
+        "z": -156.68007717852203,
+        "vx": -0.000004676848559578021,
+        "vy": -0.000025866817821697037,
+        "vz": -0.00003047441265226588
+      },
+      {
+        "id": "AI_INFO/components/AIPersonaDiagnosis.tsx",
+        "name": "AIPersonaDiagnosis.tsx",
+        "path": "AI_INFO/components/AIPersonaDiagnosis.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": true,
+        "parentPath": "AI_INFO/components",
+        "childFileCount": 0,
+        "x": 53.287678648922025,
+        "y": -181.0232932201522,
+        "z": -117.0611096826619,
+        "vx": 0.000013646233025538308,
+        "vy": -0.000013209994617340288,
+        "vz": -0.00004046841247417796
+      },
+      {
+        "id": "AI_INFO/components/AIPersonaResultModal.tsx",
+        "name": "AIPersonaResultModal.tsx",
+        "path": "AI_INFO/components/AIPersonaResultModal.tsx",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#61dafb",
+        "baseColor": "#61dafb",
+        "originalColor": "#61dafb",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/components",
+        "childFileCount": 0,
+        "x": 64.71743277086057,
+        "y": -146.09485353212702,
+        "z": -155.1926734343415,
+        "vx": -0.0000025531690156622797,
+        "vy": 8.210039769843014e-7,
+        "vz": -0.00002756681432027303
+      },
+      {
+        "id": "AI_INFO/docs",
+        "name": "docs",
+        "path": "AI_INFO/docs",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 1,
+        "x": 36.59307284576972,
+        "y": -86.30943598182215,
+        "z": -0.9408459288625162,
+        "vx": 0.000013924744432353766,
+        "vy": -0.00003711013409081855,
+        "vz": -0.000033197469996004423
+      },
+      {
+        "id": "AI_INFO/docs/WRITING_GUIDELINES.md",
+        "name": "WRITING_GUIDELINES.md",
+        "path": "AI_INFO/docs/WRITING_GUIDELINES.md",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3498db",
+        "baseColor": "#3498db",
+        "originalColor": "#3498db",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/docs",
+        "childFileCount": 0,
+        "x": 63.5000525183851,
+        "y": -111.29671954717566,
+        "z": 24.24456993359805,
+        "vx": 0.00004029970990355927,
+        "vy": -0.00005168140759087843,
+        "vz": -0.00003436905393517865
+      },
+      {
+        "id": "AI_INFO/lib",
+        "name": "lib",
+        "path": "AI_INFO/lib",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 3,
+        "x": 12.49187141436956,
+        "y": 0.8223639014981192,
+        "z": -102.35779065484512,
+        "vx": -0.000029861193557229432,
+        "vy": -0.00002490289749431616,
+        "vz": -0.000032098218525459714
+      },
+      {
+        "id": "AI_INFO/lib/personas.ts",
+        "name": "personas.ts",
+        "path": "AI_INFO/lib/personas.ts",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3178c6",
+        "baseColor": "#3178c6",
+        "originalColor": "#3178c6",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/lib",
+        "childFileCount": 0,
+        "x": 40.92182815891963,
+        "y": 12.629954471494557,
+        "z": -129.4898077594607,
+        "vx": -0.00004582850596724689,
+        "vy": 0.0000018582885504353258,
+        "vz": -0.00006442874809697132
+      },
+      {
+        "id": "AI_INFO/lib/questions.ts",
+        "name": "questions.ts",
+        "path": "AI_INFO/lib/questions.ts",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3178c6",
+        "baseColor": "#3178c6",
+        "originalColor": "#3178c6",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/lib",
+        "childFileCount": 0,
+        "x": 22.365861681920805,
+        "y": 35.404878114360855,
+        "z": -123.72345239888752,
+        "vx": -0.00005206270818979023,
+        "vy": -0.00000966604185715249,
+        "vz": -0.00005184740711939417
+      },
+      {
+        "id": "AI_INFO/lib/utils.ts",
+        "name": "utils.ts",
+        "path": "AI_INFO/lib/utils.ts",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3178c6",
+        "baseColor": "#3178c6",
+        "originalColor": "#3178c6",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO/lib",
+        "childFileCount": 0,
+        "x": 0.4382155472563163,
+        "y": 20.240352428296895,
+        "z": -137.86953886631176,
+        "vx": -0.000044952817584691564,
+        "vy": -0.0000254438604138998,
+        "vz": -0.000042839468833762476
+      },
+      {
+        "id": "AI_INFO/node_modules",
+        "name": "node_modules",
+        "path": "AI_INFO/node_modules",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 18.047902380066812,
+        "y": -74.79770527510269,
+        "z": -58.61581863345989,
+        "vx": 0.00000560401543914503,
+        "vy": -0.000026505435164541894,
+        "vz": -0.000012159504819845823
+      },
+      {
+        "id": "AI_INFO/public",
+        "name": "public",
+        "path": "AI_INFO/public",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 5,
+        "x": -91.63779315791905,
+        "y": -104.37530237560226,
+        "z": 0.17546698876841457,
+        "vx": 0.000011337015228725594,
+        "vy": 0.000009857340348669941,
+        "vz": -0.00002435000241672049
+      },
+      {
+        "id": "AI_INFO/public/file.svg",
+        "name": "file.svg",
+        "path": "AI_INFO/public/file.svg",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#ffb347",
+        "baseColor": "#ffb347",
+        "originalColor": "#ffb347",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/public",
+        "childFileCount": 0,
+        "x": -112.2637406349294,
+        "y": -140.84743624710285,
+        "z": 1.0007265945944561,
+        "vx": -0.000018181053862346052,
+        "vy": -0.000028510745138254785,
+        "vz": -0.00004531963935947453
+      },
+      {
+        "id": "AI_INFO/public/globe.svg",
+        "name": "globe.svg",
+        "path": "AI_INFO/public/globe.svg",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#ffb347",
+        "baseColor": "#ffb347",
+        "originalColor": "#ffb347",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/public",
+        "childFileCount": 0,
+        "x": -128.59496792274854,
+        "y": -117.62443671199365,
+        "z": -13.859719525058724,
+        "vx": -0.000004584900503248127,
+        "vy": -0.00003513258479116341,
+        "vz": -0.00004587507928773825
+      },
+      {
+        "id": "AI_INFO/public/next.svg",
+        "name": "next.svg",
+        "path": "AI_INFO/public/next.svg",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#ffb347",
+        "baseColor": "#ffb347",
+        "originalColor": "#ffb347",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/public",
+        "childFileCount": 0,
+        "x": -97.50917852033729,
+        "y": -134.26660591537333,
+        "z": 28.441405999462287,
+        "vx": -0.000006066234111977031,
+        "vy": -0.000039235106348831806,
+        "vz": -0.000049821129434320923
+      },
+      {
+        "id": "AI_INFO/public/vercel.svg",
+        "name": "vercel.svg",
+        "path": "AI_INFO/public/vercel.svg",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#ffb347",
+        "baseColor": "#ffb347",
+        "originalColor": "#ffb347",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/public",
+        "childFileCount": 0,
+        "x": -116.6647986455766,
+        "y": -111.15043156365996,
+        "z": 33.19470742895696,
+        "vx": -0.0000094240266662105,
+        "vy": -0.000027547255179272484,
+        "vz": -0.00004222455454575581
+      },
+      {
+        "id": "AI_INFO/public/window.svg",
+        "name": "window.svg",
+        "path": "AI_INFO/public/window.svg",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#ffb347",
+        "baseColor": "#ffb347",
+        "originalColor": "#ffb347",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO/public",
+        "childFileCount": 0,
+        "x": -131.74558969082162,
+        "y": -98.23475887885925,
+        "z": 10.206395000014126,
+        "vx": -0.0000073817068880954864,
+        "vy": -0.000024892441474491575,
+        "vz": -0.00005622636421472511
+      },
+      {
+        "id": "AI_INFO/.gitignore",
+        "name": ".gitignore",
+        "path": "AI_INFO/.gitignore",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -45.69058208325168,
+        "y": -48.19122315493979,
+        "z": -34.4349603029179,
+        "vx": 0.00000902360062384798,
+        "vy": -0.000014122667560721565,
+        "vz": 0.000004043214511935099
+      },
+      {
+        "id": "AI_INFO/eslint.config.mjs",
+        "name": "eslint.config.mjs",
+        "path": "AI_INFO/eslint.config.mjs",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -28.54191393803496,
+        "y": -82.17705743428907,
+        "z": -39.82989905998,
+        "vx": 0.000005501883115652232,
+        "vy": -0.00002275287192830981,
+        "vz": -0.00003319631370855251
+      },
+      {
+        "id": "AI_INFO/next-env.d.ts",
+        "name": "next-env.d.ts",
+        "path": "AI_INFO/next-env.d.ts",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3178c6",
+        "baseColor": "#3178c6",
+        "originalColor": "#3178c6",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 3.5898299187584732,
+        "y": -43.83048697625261,
+        "z": -73.3936922633476,
+        "vx": 0.000026177372868117764,
+        "vy": -0.0000037016492874555653,
+        "vz": -4.3797072722730017e-7
+      },
+      {
+        "id": "AI_INFO/next.config.ts",
+        "name": "next.config.ts",
+        "path": "AI_INFO/next.config.ts",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3178c6",
+        "baseColor": "#3178c6",
+        "originalColor": "#3178c6",
+        "defaultGlow": 0.1,
+        "glowIntensity": 0.1,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 8.379964344377555,
+        "y": -64.15994576587589,
+        "z": 1.8881347281399823,
+        "vx": 0.000024992504187498853,
+        "vy": -0.00002227748950807677,
+        "vz": -0.000008350884257258132
+      },
+      {
+        "id": "AI_INFO/package-lock.json",
+        "name": "package-lock.json",
+        "path": "AI_INFO/package-lock.json",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#8e44ad",
+        "baseColor": "#8e44ad",
+        "originalColor": "#8e44ad",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -26.403842808700816,
+        "y": -63.30318275039157,
+        "z": -67.982541287756,
+        "vx": 0.0000035378660075752888,
+        "vy": -0.000013627714826072815,
+        "vz": -0.000010028092623240303
+      },
+      {
+        "id": "AI_INFO/package.json",
+        "name": "package.json",
+        "path": "AI_INFO/package.json",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#8e44ad",
+        "baseColor": "#8e44ad",
+        "originalColor": "#8e44ad",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": 37.29308930961425,
+        "y": -50.26446186153401,
+        "z": -42.10556996436365,
+        "vx": 0.000010433265638668051,
+        "vy": -0.000002119632377833708,
+        "vz": -0.000011119264059057011
+      },
+      {
+        "id": "AI_INFO/postcss.config.mjs",
+        "name": "postcss.config.mjs",
+        "path": "AI_INFO/postcss.config.mjs",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -32.9776721292686,
+        "y": -26.850506264586606,
+        "z": -54.67132309174204,
+        "vx": 0.000014144137630318084,
+        "vy": -0.000013400959995145588,
+        "vz": -5.2611251284190285e-8
+      },
+      {
+        "id": "AI_INFO/README.md",
+        "name": "README.md",
+        "path": "AI_INFO/README.md",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#3498db",
+        "baseColor": "#3498db",
+        "originalColor": "#3498db",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -30.65551984176497,
+        "y": -56.590454654896796,
+        "z": -3.665014856086856,
+        "vx": 0.000011189073229171437,
+        "vy": -0.000055135815734522194,
+        "vz": -0.00001027444936163143
+      },
+      {
+        "id": "AI_INFO/tsconfig.json",
+        "name": "tsconfig.json",
+        "path": "AI_INFO/tsconfig.json",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#8e44ad",
+        "baseColor": "#8e44ad",
+        "originalColor": "#8e44ad",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "AI_INFO",
+        "childFileCount": 0,
+        "x": -3.219931424334357,
+        "y": -9.68072090874664,
+        "z": -33.852167995540874,
+        "vx": 0.000018648220135333117,
+        "vy": -0.000029484890776047197,
+        "vz": -0.000003808941005914484
+      }
+    ],
+    "links": [
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/.kamui",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/.next",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/.worktrees",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/app",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/basics",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/basics",
+        "target": "AI_INFO/app/basics/capabilities",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/basics/capabilities",
+        "target": "AI_INFO/app/basics/capabilities/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/basics",
+        "target": "AI_INFO/app/basics/how-it-works",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/basics/how-it-works",
+        "target": "AI_INFO/app/basics/how-it-works/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/basics",
+        "target": "AI_INFO/app/basics/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/copilot-features",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/copilot-features",
+        "target": "AI_INFO/app/copilot-features/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/image-generation-tips",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/image-generation-tips",
+        "target": "AI_INFO/app/image-generation-tips/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/prompting",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/prompting",
+        "target": "AI_INFO/app/prompting/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/resources",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/resources",
+        "target": "AI_INFO/app/resources/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/risks",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/risks",
+        "target": "AI_INFO/app/risks/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/vibecording",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/vibecording",
+        "target": "AI_INFO/app/vibecording/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/worktree",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/worktree",
+        "target": "AI_INFO/app/worktree/multi-agent",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/worktree/multi-agent",
+        "target": "AI_INFO/app/worktree/multi-agent/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app/worktree",
+        "target": "AI_INFO/app/worktree/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/favicon.ico",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/globals.css",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/layout.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/app",
+        "target": "AI_INFO/app/page.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/components",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components",
+        "target": "AI_INFO/components/content",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/content",
+        "target": "AI_INFO/components/content/CodeBlock.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/content",
+        "target": "AI_INFO/components/content/CopilotTip.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/content",
+        "target": "AI_INFO/components/content/TableOfContents.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/content",
+        "target": "AI_INFO/components/content/TryItOut.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components",
+        "target": "AI_INFO/components/layout",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/layout",
+        "target": "AI_INFO/components/layout/Footer.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/layout",
+        "target": "AI_INFO/components/layout/Header.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/layout",
+        "target": "AI_INFO/components/layout/Sidebar.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components",
+        "target": "AI_INFO/components/ui",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components/ui",
+        "target": "AI_INFO/components/ui/button.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components",
+        "target": "AI_INFO/components/AIPersonaDiagnosis.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/components",
+        "target": "AI_INFO/components/AIPersonaResultModal.tsx",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/docs",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/docs",
+        "target": "AI_INFO/docs/WRITING_GUIDELINES.md",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/lib",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/lib",
+        "target": "AI_INFO/lib/personas.ts",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/lib",
+        "target": "AI_INFO/lib/questions.ts",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/lib",
+        "target": "AI_INFO/lib/utils.ts",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/node_modules",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/public",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/public",
+        "target": "AI_INFO/public/file.svg",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/public",
+        "target": "AI_INFO/public/globe.svg",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/public",
+        "target": "AI_INFO/public/next.svg",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/public",
+        "target": "AI_INFO/public/vercel.svg",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO/public",
+        "target": "AI_INFO/public/window.svg",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/.gitignore",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/eslint.config.mjs",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/next-env.d.ts",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/next.config.ts",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/package-lock.json",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/package.json",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/postcss.config.mjs",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/README.md",
+        "type": "tree"
+      },
+      {
+        "source": "AI_INFO",
+        "target": "AI_INFO/tsconfig.json",
+        "type": "tree"
+      }
+    ]
+  },
+  "trackedFiles": [
+    ".gitignore",
+    "README.md",
+    "app/basics/capabilities/page.tsx",
+    "app/basics/how-it-works/page.tsx",
+    "app/basics/page.tsx",
+    "app/building-website/page.tsx",
+    "app/building-website/todo-app/page.tsx",
+    "app/copilot-features/page.tsx",
+    "app/favicon.ico",
+    "app/globals.css",
+    "app/image-generation-tips/page.tsx",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/prompting/page.tsx",
+    "app/resources/page.tsx",
+    "app/risks/page.tsx",
+    "app/vibecording/page.tsx",
+    "app/worktree/multi-agent/page.tsx",
+    "app/worktree/page.tsx",
+    "components/AIPersonaDiagnosis.tsx",
+    "components/AIPersonaResultModal.tsx",
+    "components/content/CodeBlock.tsx",
+    "components/content/CopilotTip.tsx",
+    "components/content/TableOfContents.tsx",
+    "components/content/TryItOut.tsx",
+    "components/layout/Footer.tsx",
+    "components/layout/Header.tsx",
+    "components/layout/Sidebar.tsx",
+    "components/ui/button.tsx",
+    "docs/WRITING_GUIDELINES.md",
+    "eslint.config.mjs",
+    "lib/personas.ts",
+    "lib/questions.ts",
+    "lib/utils.ts",
+    "next.config.ts",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.mjs",
+    "public/file.svg",
+    "public/globe.svg",
+    "public/next.svg",
+    "public/vercel.svg",
+    "public/window.svg",
+    "tsconfig.json"
+  ],
+  "uiState": {
+    "expandedDirs": [
+      "AI_INFO",
+      "AI_INFO/AI_INFO",
+      "AI_INFO/.kamui",
+      "AI_INFO/AI_INFO/.kamui",
+      "AI_INFO/.kamui/prompt",
+      "AI_INFO/AI_INFO/.kamui/prompt",
+      "task-1762326094228-9da427"
+    ],
+    "selectedPath": "AI_INFO/components/AIPersonaDiagnosis.tsx"
+  },
+  "directoryTreeMeta": {
+    "mode": "full",
+    "maxDepthApplied": 10,
+    "maxEntriesPerDirectory": 0,
+    "isPartial": false
+  },
+  "gitHistoryMeta": {
+    "mode": "full",
+    "isPartial": false,
+    "branchPulse": {
+      "generatedAt": 1762326262816,
+      "targets": [
+        "main",
+        "task/task-1762326094228-9da427",
+        "task/task-1762326100436-e0b5bb",
+        "master"
+      ],
+      "statsByBranch": {
+        "main": {
+          "branch": "main",
+          "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "baseRef": "origin/main",
+          "baseHead": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "mergeBase": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "divergence": {
+            "aheadCount": 0,
+            "fileCount": 0
+          },
+          "baseline": {
+            "aheadCount": 0,
+            "behindCount": 0,
+            "fileCount": 0
+          },
+          "upstream": null
+        },
+        "task/task-1762326094228-9da427": {
+          "branch": "task/task-1762326094228-9da427",
+          "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "baseRef": "main",
+          "baseHead": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "mergeBase": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "divergence": {
+            "aheadCount": 0,
+            "fileCount": 0
+          },
+          "baseline": {
+            "aheadCount": 0,
+            "behindCount": 0,
+            "fileCount": 0
+          },
+          "upstream": null
+        },
+        "task/task-1762326100436-e0b5bb": {
+          "branch": "task/task-1762326100436-e0b5bb",
+          "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "baseRef": "main",
+          "baseHead": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "mergeBase": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "divergence": {
+            "aheadCount": 0,
+            "fileCount": 0
+          },
+          "baseline": {
+            "aheadCount": 0,
+            "behindCount": 0,
+            "fileCount": 0
+          },
+          "upstream": null
+        }
+      }
+    }
+  },
+  "gitHistoryState": {
+    "selectedTimelineIndex": 1,
+    "activeCommitHash": null,
+    "entries": [
+      {
+        "type": "live",
+        "label": "現在のコードベース",
+        "files": [],
+        "branch": "main",
+        "targetCommitHash": "9882cb7ae286d45772fa0385636cfda65697b129",
+        "worktreePath": "/Users/user/development/GitHub/AI_INFO",
+        "timestamp": 1762326262927,
+        "lane": 0,
+        "branchLabel": "main",
+        "branchTags": [
+          "main"
+        ],
+        "isDefaultWorktree": true,
+        "branchColor": "#4f85e8",
+        "index": 0
+      },
+      {
+        "type": "unstaged",
+        "label": "未ステージ (4)",
+        "files": [
+          ".kamui/model-versions-cache.json",
+          ".kamui/prompt/merge-prompt.txt",
+          ".kamui/system-graph-state.json",
+          ".kamui/tasks-state.json"
+        ],
+        "branch": "main",
+        "targetCommitHash": "9882cb7ae286d45772fa0385636cfda65697b129",
+        "worktreePath": "/Users/user/development/GitHub/AI_INFO",
+        "timestamp": 1762326262927,
+        "sortOrder": 0,
+        "lane": 0,
+        "branchColor": "#4f85e8",
+        "index": 1
+      },
+      {
+        "type": "anchor",
+        "label": "[作業中] CodexCLI1: AIコンペ: HTMLとCSSで小説閲覧用…",
+        "branch": "task/task-1762326094228-9da427",
+        "worktreePath": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326094228-9da427",
+        "parentCommitHash": "9882cb7ae286d45772fa0385636cfda65697b129",
+        "lane": 1,
+        "isMerged": false,
+        "mergeCommitHash": null,
+        "statusChildren": [],
+        "isDefaultWorktree": false,
+        "renderMode": "node",
+        "shouldHide": false,
+        "tagLabel": "task/task-1762326094228-9da427",
+        "taskId": "task-1762326094228-9da427",
+        "taskStatus": "working",
+        "taskStatusLabel": "作業中",
+        "taskName": "CodexCLI1: AIコンペ: HTMLとCSSで小説閲覧用の簡易アプリUIを作成し、複数モデルにカード一覧とモーダル表示案を提案させる",
+        "tooltip": "タスク: CodexCLI1: AIコンペ: HTMLとCSSで小説閲覧用の簡易アプリUIを作成し、複数モデルにカード一覧とモーダル表示案を提案させる\nステータス: 作業中\nID: task-1762326094228-9da427\nBranch: task/task-1762326094228-9da427\nWorktree: Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326094228-9da427",
+        "branchColor": "#e84f7f",
+        "index": 2
+      },
+      {
+        "type": "anchor",
+        "label": "[作業中] ClaudeCode1: AIコンペ: HTMLとCSSで小説閲…",
+        "branch": "task/task-1762326100436-e0b5bb",
+        "worktreePath": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326100436-e0b5bb",
+        "parentCommitHash": "9882cb7ae286d45772fa0385636cfda65697b129",
+        "lane": 2,
+        "isMerged": false,
+        "mergeCommitHash": null,
+        "statusChildren": [],
+        "isDefaultWorktree": false,
+        "renderMode": "node",
+        "shouldHide": false,
+        "tagLabel": "task/task-1762326100436-e0b5bb",
+        "taskId": "task-1762326100436-e0b5bb",
+        "taskStatus": "working",
+        "taskStatusLabel": "作業中",
+        "taskName": "ClaudeCode1: AIコンペ: HTMLとCSSで小説閲覧用の簡易アプリUIを作成し、複数モデルにカード一覧とモーダル表示案を提案させる",
+        "tooltip": "タスク: ClaudeCode1: AIコンペ: HTMLとCSSで小説閲覧用の簡易アプリUIを作成し、複数モデルにカード一覧とモーダル表示案を提案させる\nステータス: 作業中\nID: task-1762326100436-e0b5bb\nBranch: task/task-1762326100436-e0b5bb\nWorktree: Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326100436-e0b5bb",
+        "branchColor": "#4fe8b8",
+        "index": 3
+      },
+      {
+        "type": "commit",
+        "label": "feat: ペルソナ診断機能、Copilot機能ページ、画像生成Tipsページを追加",
+        "commit": {
+          "hash": "9882cb7ae286d45772fa0385636cfda65697b129",
+          "subject": "feat: ペルソナ診断機能、Copilot機能ページ、画像生成Tipsページを追加",
+          "author": "WasedaBot",
+          "timestamp": 1762178619,
+          "parents": [
+            "72646a26c782314bcc583b318dc2eb608784b1ab"
+          ],
+          "parent": "72646a26c782314bcc583b318dc2eb608784b1ab",
+          "refs": "HEAD -> main, origin/main, origin/HEAD, task/task-1762326100436-e0b5bb, task/task-1762326094228-9da427",
+          "branches": [
+            "HEAD -> main",
+            "origin/main",
+            "origin/HEAD",
+            "task/task-1762326100436-e0b5bb",
+            "task/task-1762326094228-9da427",
+            "main"
+          ]
+        },
+        "commitHash": "9882cb7ae286d45772fa0385636cfda65697b129",
+        "lane": 0,
+        "parentLinks": [
+          {
+            "hash": "72646a26c782314bcc583b318dc2eb608784b1ab",
+            "lane": 0
+          }
+        ],
+        "primaryBranchName": "main",
+        "branchColor": "#4f85e8",
+        "branchTags": [
+          "main"
+        ],
+        "worktrees": [
+          {
+            "path": "/Users/user/development/GitHub/AI_INFO",
+            "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+            "branch": "main",
+            "isMerged": false,
+            "mergeCommitHash": null,
+            "status": {
+              "staged": [],
+              "unstaged": [],
+              "untracked": [
+                {
+                  "path": ".kamui/model-versions-cache.json",
+                  "status": "untracked",
+                  "rawPath": ".kamui/model-versions-cache.json",
+                  "timestamp": 1762326261932
+                },
+                {
+                  "path": ".kamui/prompt/merge-prompt.txt",
+                  "status": "untracked",
+                  "rawPath": ".kamui/prompt/merge-prompt.txt",
+                  "timestamp": 1762326261932
+                },
+                {
+                  "path": ".kamui/system-graph-state.json",
+                  "status": "untracked",
+                  "rawPath": ".kamui/system-graph-state.json",
+                  "timestamp": 1762326261932
+                },
+                {
+                  "path": ".kamui/tasks-state.json",
+                  "status": "untracked",
+                  "rawPath": ".kamui/tasks-state.json",
+                  "timestamp": 1762326261932
+                },
+                {
+                  "path": ".worktrees/task-1762326094228-9da427/",
+                  "status": "untracked",
+                  "rawPath": ".worktrees/task-1762326094228-9da427/",
+                  "timestamp": 1762326261932
+                },
+                {
+                  "path": ".worktrees/task-1762326100436-e0b5bb/",
+                  "status": "untracked",
+                  "rawPath": ".worktrees/task-1762326100436-e0b5bb/",
+                  "timestamp": 1762326261932
+                }
+              ],
+              "capturedAt": 1762326261932
+            },
+            "normalizedPath": "/Users/user/development/GitHub/AI_INFO",
+            "lane": 0
+          },
+          {
+            "path": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326094228-9da427",
+            "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+            "branch": "task/task-1762326094228-9da427",
+            "isMerged": false,
+            "mergeCommitHash": null,
+            "status": {
+              "staged": [],
+              "unstaged": [],
+              "untracked": [],
+              "capturedAt": 1762326261918
+            },
+            "normalizedPath": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326094228-9da427",
+            "lane": 1
+          },
+          {
+            "path": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326100436-e0b5bb",
+            "head": "9882cb7ae286d45772fa0385636cfda65697b129",
+            "branch": "task/task-1762326100436-e0b5bb",
+            "isMerged": false,
+            "mergeCommitHash": null,
+            "status": {
+              "staged": [],
+              "unstaged": [],
+              "untracked": [],
+              "capturedAt": 1762326262063
+            },
+            "normalizedPath": "/Users/user/development/GitHub/AI_INFO/.worktrees/task-1762326100436-e0b5bb",
+            "lane": 2
+          }
+        ],
+        "index": 4
+      },
+      {
+        "type": "commit",
+        "label": "tipsコンポーネントの背景色とコントラストを改善",
+        "commit": {
+          "hash": "72646a26c782314bcc583b318dc2eb608784b1ab",
+          "subject": "tipsコンポーネントの背景色とコントラストを改善",
+          "author": "WasedaBot",
+          "timestamp": 1761970677,
+          "parents": [
+            "a47dc2447302a63f3fdac540d865ec3a857795f0"
+          ],
+          "parent": "a47dc2447302a63f3fdac540d865ec3a857795f0",
+          "refs": "",
+          "branches": [
+            "task/task-1762326094228-9da427",
+            "task/task-1762326100436-e0b5bb",
+            "main"
+          ]
+        },
+        "commitHash": "72646a26c782314bcc583b318dc2eb608784b1ab",
+        "lane": 0,
+        "parentLinks": [
+          {
+            "hash": "a47dc2447302a63f3fdac540d865ec3a857795f0",
+            "lane": 0
+          }
+        ],
+        "primaryBranchName": "main",
+        "branchColor": "#4f85e8",
+        "branchTags": [],
+        "index": 5
+      },
+      {
+        "type": "commit",
+        "label": "初めての構築",
+        "commit": {
+          "hash": "a47dc2447302a63f3fdac540d865ec3a857795f0",
+          "subject": "初めての構築",
+          "author": "WasedaBot",
+          "timestamp": 1761970420,
+          "parents": [],
+          "parent": null,
+          "refs": "",
+          "branches": [
+            "task/task-1762326094228-9da427",
+            "task/task-1762326100436-e0b5bb",
+            "main"
+          ]
+        },
+        "commitHash": "a47dc2447302a63f3fdac540d865ec3a857795f0",
+        "lane": 0,
+        "parentLinks": [],
+        "primaryBranchName": "main",
+        "branchColor": "#4f85e8",
+        "branchTags": [],
+        "index": 6
+      },
+      {
+        "type": "empty",
+        "label": "初期状態 (初回コミット以前)",
+        "files": [],
+        "marker": "pre-history",
+        "index": 7
+      }
+    ]
+  },
+  "projectRoot": "/Users/user/development/GitHub/AI_INFO",
+  "savedAt": 1762326268626
+}
